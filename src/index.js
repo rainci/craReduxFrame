@@ -10,7 +10,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 const store = createStore(
   rootReducer,
-  // applyMiddleware(thunk)
+  applyMiddleware(thunk)
 )
 
 ReactDOM.render(
